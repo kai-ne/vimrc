@@ -1,7 +1,5 @@
 source $VIMRUNTIME/vimrc_example.vim
 
-set
-
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
@@ -41,7 +39,5 @@ syntax on
 set relativenumber
 set number
 set colorcolumn=80
-set backupdir=c:\User\Kai\vimtmp " Do not clutter directory with swap
-set directory=c:\User\Kai\vimtmp " and temp files
 set encoding=utf-8
-
+colorscheme Solarized
